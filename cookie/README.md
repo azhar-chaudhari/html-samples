@@ -46,7 +46,7 @@
 }
 
 ```
-
+# javascript
 ```js
 // Check if the user has already accepted the cookie
 if (document.cookie.indexOf("cookieAccepted=true") === -1) {
