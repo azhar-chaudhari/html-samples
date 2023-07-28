@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce App</title>
+    <!-- Link to the css file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Create the header element -->
+    <header>
+        <!-- Create the logo element -->
+        <div class="logo">Ecommerce App</div>
+        <!-- Create the navigation element -->
+        <nav>
+            <!-- Create the navigation links -->
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <!-- Create the main element -->
+    <main>
+        <!-- Create a container for the cart items and summary -->
+        <div class="cart-container">
+            <!-- Create a section for the cart items -->
+            <div class="cart-items">
+                <!-- Create a heading for the cart items -->
+                <h2>Your Cart Items</h2>
+
+                <!-- Repeat this section for each cart item -->
+
+                <!-- Create a grid layout for each cart item -->
+                <div class="cart-item-grid">
+                    <!-- Create a column for the cart item image -->
+                    <img src="https://via.placeholder.com/100x100" alt="Cart Item Image" class="cart-item-image">
+                    <!-- Create a column for the cart item name and price -->
+                    <div class="cart-item-name-price">
+                        <!-- Create the cart item name -->
+                        <div class="cart-item-name">Product One</div>
+                        <!-- Create the cart item price -->
+                        <div class="cart-item-price">$10.00</div> 
+                    </div> 
+                    <!-- Create a column for the cart item quantity and remove button -->
+                    <div class="cart-item-quantity-remove">
+                        <!-- Create a label for the cart item quantity -->
+                        <label for="quantity">Quantity:</label>
+                        <!-- Create an input for the cart item quantity -->
+                        <input type="number" id="quantity" name="quantity" value="1" min="1" max="10">
+                        <!-- Create a button for removing the cart item -->
+                        <button class="cart-item-remove">Remove</button>
+                    </div>
+                </div>
+
+                <!-- End of repeating section -->
+
+            </div>
+            <!-- Create a section for the cart summary -->
+            <div class="cart-summary">
+                <!-- Create a heading for the cart summary -->
+                <h2>Your Cart Summary</h2>
+                <!-- Create a table for the cart summary -->
+                <table>
+                    <!-- Create a row for the subtotal -->
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>$10.00</td>
+                    </tr>
+                    <!-- Create a row for the tax -->
+                    <tr>
+                        <td>Tax</td>
+                        <td>$1.00</td>
+                    </tr>
+                    <!-- Create a row for the total -->
+                    <tr>
+                        <td>Total</td>
+                        <td>$11.00</td>
+                    </tr>
+                </table>
+                <!-- Create a button for proceeding to checkout -->
+                <a href="checkout.html" class="cart-checkout"> AProceed to Checkout</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

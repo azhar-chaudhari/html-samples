@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce App</title>
+    <!-- Link to the css file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Create the header element -->
+    <header>
+        <!-- Create the logo element -->
+        <div class="logo">Ecommerce App</div>
+        <!-- Create the navigation element -->
+        <nav>
+            <!-- Create the navigation links -->
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <!-- Create the main element -->
+    <main>
+        <!-- Create a container for the checkout form and summary -->
+        <div class="checkout-container">
+            <!-- Create a section for the checkout form -->
+            <div class="checkout-form">
+                <!-- Create a heading for the checkout form -->
+                <h2>Checkout Form</h2>
+
+                <!-- Create a form element for the checkout form -->
+                <form>
+
+                    <!-- Repeat this section for each input field -->
+
+                    <!-- Create a label for the input field -->
+                    <label for="name">Name:</label><br>
+
+                    <!-- Create an input field with an id, name and type attribute -->
+                    <input type="text" id="name" name="name"><br>
+
+                    <!-- End of repeating section -->
+
+                    <!-- Create a button for submitting the form -->
+                    <button type="submit">Place Order</button>
+
+                </form>
+
+            </div>
+
+            <!-- Create a section for the checkout summary -->
+            <div class="checkout-summary">
+                <!-- Create a heading for the checkout summary -->
+                <h2>Checkout Summary</h2>
+
+                <!-- Repeat this section for each checkout item -->
+
+                <!-- Create a grid layout for each checkout item -->
+                <div class="checkout-item-grid">
+                    <!-- Create a column for the checkout item image -->
+                    <img src="https://via.placeholder.com/100x100" alt="Checkout Item Image"
+                        class="checkout-item-image">
+
+                    <!-- Create a column for the checkout item name, price and quantity -->
+                    <div class="checkout-item-name-price-quantity">
+                        <!-- Create the checkout item name -->
+                        <div class="checkout-item-name">Product One</div>
+
+                        <!-- Create the checkout item price -->
+                        <div class="checkout-item-price">$10.00</div>
+
+                        <!-- Create the checkout item quantity -->
+                        <div class="checkout-item-quantity">x 1</div>
+                    </div>
+
+                    <!-- Create a column for the checkout item total -->
+                    <div class="checkout-item-total">$10.00</div>
+
+                </div>
+
+                <!-- End of repeating section -->
+
+                <!-- Create a table for the checkout summary -->
+                <table>
+
+                    <!-- Create a row for the subtotal -->
+                    <tr>
+
+                        <td>Subtotal</td>
+
+                        <td>$10.00</td>
+
+                    </tr>
+
+                    <!-- Create a row for the tax -->
+
+                    <tr>
+
+                        <td>Tax</td>
+
+                        <td>$1.00</td>
+
+                    </tr>
+
+                    <!-- Create a row for the total -->
+
+                    <tr>
+
+                        <td>Total</td>
+
+                        <td>$11.00</td>
+
+                    </tr>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>
