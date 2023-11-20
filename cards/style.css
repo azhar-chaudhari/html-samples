@@ -1,0 +1,409 @@
+/* styles.css */
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+/* Customize the navigation bar */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Inknut Antiqua', serif;
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    background: #727272;
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    /*  font-family: 'Courgette', cursive;*/
+    font-family: 'Arial', sans-serif;
+}
+section h2 {
+    font-size: 46px;
+    font-weight: 500;
+    line-height: 1.4;
+    font-family: 'Oswald', sans-serif;
+}
+.navbar {
+    background-color: #007BFF;
+}
+
+.navbar-brand {
+    color: #FFF;
+    font-size: 24px;
+}
+
+.navbar-nav .nav-link {
+    color: #FFF;
+    font-size: 16px;
+}
+
+/* Customize the 'Hero' section */
+/* Customize the 'Hero' section */
+#hero {
+    background-color: #007BFF;
+    color: #FFF;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content {
+    text-align: left;
+}
+
+.hero-content h1 {
+    font-size: 80px;
+    /* Adjust the font size as needed */
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    /* Change the font family */
+    margin-bottom: 20px;
+}
+
+.hero-content h5 {
+    font-size: 22px;
+    line-height: 32px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color: #fff;
+}
+
+.hero-content p {
+    font-size: 24px;
+    /* Adjust the font size as needed */
+    font-family: 'Arial', sans-serif;
+    /* Change the font family */
+    margin-bottom: 40px;
+}
+
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Customize the 'About' section */
+#about {
+    background-color: #F5F5F5;
+    padding: 50px 0;
+}
+
+#about h2 {
+    font-size: 36px;
+    color: #333;
+}
+
+#about p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+#about img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Add more custom styles for other sections */
+
+/* Customize the 'Services' section */
+#services {
+    background-color: #FFF;
+    padding: 50px 0;
+}
+
+#services h2 {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.service-card {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-image img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    /* Add rounded corners to images */
+}
+
+.service-card h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Customize the 'Clients' section */
+#clients {
+    background-color: #F5F5F5;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#clients h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.client-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    /* Set a fixed height for the client logo container */
+    padding: 20px;
+}
+
+.client-logo img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Customize the 'Projects' section */
+#projects {
+    background-color: #FFF;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.project-card {
+    margin-bottom: 30px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    padding: 20px;
+    transition: transform 0.2s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    /* Add a hover effect to project cards */
+}
+
+.project-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.project-card h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Customize the 'Testimonial' section */
+#testimonial {
+    background-color: #F5F5F5;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#testimonial h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.testimonial-card {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+
+.testimonial-card img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+    /* Make the images round */
+    margin-bottom: 20px;
+}
+
+.testimonial-card h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.testimonial-card p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Customize the 'News' section */
+#news {
+    background-color: #FFF;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#news h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.news-card {
+    margin-bottom: 30px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.news-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.news-card h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.news-card p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Customize the 'Newsletter' section */
+#signup {
+    background-color: #F5F5F5;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#signup h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.newsletter-form {
+    padding: 20px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    background-color: #FFF;
+}
+
+.newsletter-form p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.newsletter-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #007BFF;
+    color: #FFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Customize the 'Footer' section */
+footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 30px 0;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+footer p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    display: inline-block;
+    margin-right: 10px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.social-icon:last-child {
+    margin-right: 0;
+}
+
+.social-icon:hover {
+    text-decoration: underline;
+}
