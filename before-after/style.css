@@ -1,0 +1,102 @@
+.sc {
+    
+    padding-bottom: 50px;
+}
+
+.sc-gray {
+    background-color: #F5F5F5;
+}
+
+.sc-white {
+    background-color: #ffffff;
+}
+
+.hd-2 {
+
+    font-size: 46px;
+    font-weight: 500;
+    line-height: 1.4;
+    font-family: 'Oswald', sans-serif;
+    padding: 20px 10px;
+    margin-top: 0;
+}
+
+.hr {
+    position: relative;
+}
+
+.hr::before {
+    content: "";
+    display: block;
+    border-top: 1px solid black;
+    margin: 20px 0;
+}
+
+.hr::after {
+    content: "";
+    display: block;
+    border-top: 1px solid blue;
+    margin: 20px 0;
+}
+
+.task::before {
+    content: "\2713";
+    /* Unicode for a checkmark symbol */
+    margin-right: 5px;
+}
+
+.tooltip {
+    position: relative;
+    cursor: pointer;
+}
+
+.tooltip::before {
+    content: attr(data-tooltip);
+    display: none;
+    position: absolute;
+    background: #de4141;
+    color: #fff;
+    padding: 5px;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+.tooltip:hover::before {
+    display: block;
+}
+
+blockquote::before {
+    content: "“";
+    font-size: 24px;
+    margin-right: 5px;
+    color: #de4141;
+}
+
+blockquote::after {
+    content: "”";
+    font-size: 24px;
+    margin-left: 5px;
+    color: #5141de;
+}
+
+.tooltip::before {
+    content: "";
+    border-style: solid;
+    border-width: 6px;
+    border-color: transparent transparent #333 transparent;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.label {
+	border: 1px solid black;
+}
+
+.label::after {
+	content: " This page shows off our baked goods menu.";
+	background-color: orange;
+}
